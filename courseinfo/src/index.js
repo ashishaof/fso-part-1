@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom'
 
 const App = () => {
     const course = {
-        name: 'Half Stack -sovelluskehitys',
+        name: 'TheFSG',
         parts: [
             {
-                name: 'Reactin perusteet',
+                name: 'my ex 10',
                 exercises: 10
             },
             {
-                name: 'Tiedonvälitys propseilla',
+                name: 'my ex 7',
                 exercises: 7
             },
             {
-                name: 'Komponenttien tila',
+                name: 'my ex 14',
                 exercises: 14
             }
         ]
