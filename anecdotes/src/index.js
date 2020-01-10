@@ -46,7 +46,7 @@ const anecdotes = [
   'Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.'
 ]
 
-// console.log(_.max(anecdotes, function(anecdote){ return (anecdote.votes); }).votes;)
+
 console.log(Math.floor(Math.random() * 6 ) +10)
 ReactDOM.render(
   <App anecdotes={anecdotes} />,
