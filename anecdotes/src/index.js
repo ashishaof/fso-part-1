@@ -19,7 +19,7 @@ const App = (props) => {
   
   const handleNextAnecdote = () => {
     let n = selected
-    // Make sure the next anecdote is never the same
+    
     while (n === selected) { 
       n = Math.floor(Math.random() * anecdotes.length)
     }
